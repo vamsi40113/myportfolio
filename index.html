@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peeta Vamsi Krishna</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a29229ad10.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#portfolio">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hai, I'm<span> Peeta Vamsi Krishna</span><br></h1>
+                <p>My portfolio is a representation of all that
+                    I've learned<br>and accomplished as an Engineering student.
+                    I love<br> designing websites and Interested in Innovations.</p>
+            </div>
+         </div>
+    </div>
+    <!---about section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/greyuser.jpg"height="600">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Student in Electronics and Communication Engineer Fluent in Telugu and English with good communication skills.
+                        A fast learner with time management and multi-tasking skills. 
+                        Strong troubleshooting and problem solving skills with an analytical mindset.
+                        Seeking a challenging position in a reputable organization to expand and utilize my learning, skills and
+                        knowledge. Flexible to work in any environment as required.</p><br>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Work Experience</p>
+                            <p class="tab-links" onclick="opentab('intrest')">Intrest</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Tools</span><br><b>Visual Studio Code, Tableau, Rstudio, Github</b></li>
+                                <li><span>Cloud Skills</span><br><b>GCP</b></li>
+                                <li><span>Computational Languages</span><br><b>C,Python, HTML, CSS, JS, MySQL</b></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>INTERACTIVE WEB BASED SIMULATIONS FOR
+                                    BALASWECHA</span><br>Swecha is a non-profit organization formerly called as Free Software Foundation Andhra Pradesh. Contributed to Free and Open Source Project. Created a web page for 6th class students based on their lessons.</li><br>
+                               
+                                <li><span>GoogleCloudReady Facilitator</span><br>Google Cloud facilitator is a tool that simplifies the process of setting up, managing and using Google Cloud Platform resources.Number of Quest Completions 40/40 and Number of Skill Badge
+                                    Completions 20/20.<br><br>Profile Link :<a href="https://www.cloudskillsboost.google/public_profiles/77d16667-aef0-4701-8252-bc68ededf29f">Check it out</a></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="intrest">
+                            <ul>
+                                <li><span>Web Development</span><br></li>
+                                <li><span>Projects</span><br></li>
+                                <li><span>Database Management System</span><br></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor of Technology:2020-2024</span><br>KL UNIVERSITY, Vijaywada<br>Electronics and
+                                    Communication Engineering <br> CGPA: 8.89 </li>
+                                <li><span>INTERMEDIATE:2018-2020</span><br>PBN COLLEGE, Ponnur<br>MPC<br>CGPA: 8.63</li>
+                                <li><span>SSC:2018</span><br>ZPHS, Ponnur<br>CGPA: 9.3</li>
+                                
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-------------projects-------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-bottle-water"></i>
+                <h2>Commercial Water Vending Machine</h2>
+                <p>Vending machine used in water plants or in hospitals etc. During this covid situations this project can be helpful to every one.
+                     This machine works by not taking money directly from customer, Instead the money will be taken by Machine and gives required water to customer automatically. </p>
+                    <a href="https://github.com/vamsi40113/Commercial-Water-Vending-Machine"><b>Learn more</b></a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-bell"></i>
+                <h2>EMERGENCY ALERT SYSTEM</h2>
+                <p>This is a simple Emergency alert system using GSM module, ultrasonic and Arduino. This is capable of alerting others from emergency through GSM Module. 
+                    Similarly it can also be used to send an SMS. </p>
+                    <a href="https://github.com/vamsi40113/EMERGENCY-ALERT-SYSTEM_Using-Arduino"><b>Learn more</b></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>INTERACTIVE WEB BASED SIMULATIONS FOR
+                    BALASWECHA</h2>
+                <p>Contributed to Free and Open Source Project . 
+                    Created web page for 6th class students based on their lessons.</p>
+                    <a href="http://balaswecha.swechaap.org/balaswecha/changes-around-us/"><b>Visit Website</b></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-clone"></i>
+                <h2>Netflix Clone using HTML & CSS</h2>
+                <p>This webpage is a clone of Netflix, providing a similar user interface</p>
+                    <a href="F:\front-end\CLONE PROJECTS\Netflix\index.html"><b>Visit Website</b></a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-id-card"></i>
+                <h2>Automatic Sanitary Pads Dispenser</h2>
+                <p>The user will show the College ID Card and the sanitary napkin to
+                    the user should be given automatically. 
+                    No more embarrassment of asking for napkin from institution authorities. </p>
+                    <a href="https://github.com/vamsi40113/Automatic-Sanitary-Pads-Dispenser"><b>Learn more</b></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------certificates---------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Certificates</h1>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="images/work2.jpg" height="100%">
+                <div class="layer">
+                    <h3>Azure Data Fundamentals</h3>
+                    <p>Learnt core data concepts such as relational, 
+                        non-relational, big data, and analytics, and build their foundational knowledge of cloud data 
+                        services within Microsoft Azure. </p>
+                        <a href="https://www.credly.com/badges/daef2656-487f-4c34-9144-59540ec56a2e/linked_in_profile"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="images/work1.jpg" height="100%">
+                <div class="layer">
+                    <h3>Azure Fundamentals</h3>
+                    <p>Learnt Cloud Computing and Azure
+                    Azure Services and Products, Azure Virtual Machines ,Azure Storage, Azure Networking
+                    Azure Identity and Access Management,Azure Governance and Management,Azure Security,Azure Pricing and Support, Azure Resource Manager,Azure Monitor and Management Tools,Azure Backup and Disaster Recovery, 
+                    Azure App Service,Azure Functions,Azure DevOps,Azure SQL Database,Azure Cosmos DB, Azure Cognitive Services,Azure IoT Hub,Azure Machine Learning </p>
+                        <a href="https://www.credly.com/badges/daef2656-487f-4c34-9144-59540ec56a2e/linked_in_profile"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="images/work3.png" height="100%">
+                <div class="layer">
+                    <h3>Associate Google Cloud Engineer</h3>
+                    <p>Learned how to deploy applications, monitor operations, 
+                        and manage enterprise solutions.</p>
+                        <a href="https://www.credential.net/7ae91f20-91e8-4cca-9843-d0e49c80816c?key=35ec1a82f92d1f0555fb4314c9c63d3bfbee4c4b52c47e0ec9dc05517a4e853d"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-- ---------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> 2000040113ece@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7093422866</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/peeta-vamsi-krishna-b647b5201/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Peeta Vamsi Krishna.pdf" class="btn btn2">Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="Email" placeholder="your email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© Copyright 2022 by Peeta Vamsi Krishna</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzr1DquWkcbl-KiujQms0oQSaCx8LdqL6o52_0HJ5_aoAV5OFEnhMWdhkZIvwnv6_Gi/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML=" Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    const msg = document.getElementById("msg")
+    s1.async=true;
+    s1.src='https://tawk.to/chat/63cfb28847425128790f58b9/1gnhl2qeq';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    </body>
+</html>
